@@ -60,20 +60,3 @@ def decrypt(message):
                 citext = ''
 
     return decipher
-
-'''
-message = "MOUNIKA"
-result = encrypt(message.upper())
-print(result)
-for character in result:
-    if character == '-':
-        subprocess.call(["afplay", "dah.wav"])
-    if character == '.':
-        subprocess.call(["afplay", "dit.wav"])
-    else:
-        time.sleep(.1)
-message = "... --- ..."
-'''
-''''''
-#result = decrypt(message)
-#print(result)
